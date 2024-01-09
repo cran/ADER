@@ -1,14 +1,16 @@
-citHeader("To cite", sQuote("ADER"), "in publications, please use:")
-
 bibentry(
      bibtype = "Book",
      title = "Analisis de datos ecologicos en R",
-     author = as.person("Luis Cayuela [aut], Marcelino De la Cruz [aut]"),
+     author = c(
+                person("Luis", "Cayuela"),
+                person("Marcelino","De la Cruz")
+     ),
      year = "2022",
      publisher = "Paraninfo",
      address = "Madrid",
-     isbn = "978-84-8476-705-3",
-     url = "https://www.paraninfo.es/catalogo/9788484767053",
-     key = "ADER-book"
+     isbn = "978-84-8476-833-3",
+     url="https://www.paraninfo.es/catalogo/9788484768333/",
+     key = "ADER-book",
+     header    = "To cite ADER package  in publications, please use:"
    )
  
